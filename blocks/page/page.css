@@ -1,0 +1,12 @@
+.page {
+  background-color: #2a2c2f;
+  color: white;
+  font-family: "Inter", "Arial", sans-serif;
+  align-self: center;
+  margin: 0 auto;
+}
+@media screen and (min-width: 1280px) {
+  .page {
+    margin: 0 auto;
+  }
+}
