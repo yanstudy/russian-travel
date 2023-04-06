@@ -20,6 +20,13 @@
   }
 }
 
+@media (max-width: 604px) {
+  .places {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}
+
 @media (max-width: 320px) {
   .places {
     margin-left: 16px;
