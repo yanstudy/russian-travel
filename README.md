@@ -21,3 +21,5 @@
 - CSS
 
 ## Ссылка на github-pages
+
+https://yanstudy.github.io/russian-travel/
