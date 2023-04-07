@@ -25,13 +25,13 @@
   bottom: 0;
   right: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(42, 44, 47, 0.8);
   transition: background-color 0.3s ease-out;
   z-index: -1;
 }
 
 .cover__item:hover::after {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(42, 44, 47, 0.3);
 }
 
 @media (max-width: 320px) {

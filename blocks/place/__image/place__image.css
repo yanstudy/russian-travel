@@ -32,7 +32,9 @@
 
 @media (max-width: 320px) {
   .place__image {
+    margin-top: 32px;
     width: 320px;
-    margin-left: -16px;
+    position: relative;
+    left: -16px;
   }
 }
