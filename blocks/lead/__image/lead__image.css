@@ -15,6 +15,6 @@
 @media (max-width: 320px) {
   .lead__image {
     margin: 40px 0 0 0;
-    width: 320px;
+    width: calc(100% + 32px);
   }
 }

@@ -1,5 +1,5 @@
 .place__image {
-  width: 460px;
+  max-width: 460px;
   grid-row-start: span 2;
   margin-top: 48px;
   object-fit: cover;
@@ -8,25 +8,29 @@
 
 @media (max-width: 1024px) {
   .place__image {
-    width: 440px;
+    max-width: 440px;
   }
 }
 
 @media (max-width: 768px) {
   .place__image {
-    width: 340px;
+    max-width: 340px;
   }
 }
 
 @media (max-width: 374px) {
   .place__image {
-    width: 320px;
+    max-width: 320px;
   }
 }
 
 @media (max-width: 352px) {
   .place__image {
-    position: relative;
-    left: -16px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 320px) {
+  .place__image {
   }
 }

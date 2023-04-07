@@ -31,5 +31,6 @@
   .places {
     margin-top: 64px;
     gap: 50px;
+    max-width: 288px;
   }
 }

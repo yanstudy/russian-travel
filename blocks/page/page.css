@@ -5,9 +5,3 @@
   align-self: center;
   margin: 0 auto;
 }
-
-@media (max-width: 335px) {
-  .page {
-    min-width: 320px;
-  }
-}
