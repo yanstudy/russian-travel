@@ -15,14 +15,17 @@
 @media (max-width: 768px) {
   .place__image {
     width: 340px;
-    margin-top: 32px;
-    margin: 32px auto 0 auto;
   }
 }
 
 @media (max-width: 374px) {
   .place__image {
     width: 320px;
+  }
+}
+
+@media (max-width: 352px) {
+  .place__image {
     position: relative;
     left: -16px;
   }

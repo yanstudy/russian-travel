@@ -5,8 +5,9 @@
   align-self: center;
   margin: 0 auto;
 }
-@media screen and (min-width: 1280px) {
+
+@media (max-width: 335px) {
   .page {
-    margin: 0 auto;
+    min-width: 320px;
   }
 }

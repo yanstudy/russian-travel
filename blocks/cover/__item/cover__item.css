@@ -16,19 +16,22 @@
   z-index: 1;
   aspect-ratio: 1184 / 740;
   object-fit: cover;
-  background-color: rgba(0, 0, 0, 0);
-  transition: background-color 0.3s ease-out;
 }
 
-.cover__item:hover::after {
+.cover__item::after {
   content: "";
   position: absolute;
   top: 0;
   bottom: 0;
   right: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: background-color 0.3s ease-out;
   z-index: -1;
+}
+
+.cover__item:hover::after {
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 @media (max-width: 320px) {
