@@ -33,8 +33,7 @@
 @media (max-width: 320px) {
   .place__image {
     margin-top: 32px;
-    width: 320px;
-    position: relative;
-    left: -16px;
+    width: 100%;
+    height: auto;
   }
 }

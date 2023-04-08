@@ -29,9 +29,16 @@
 @media (max-width: 326px) {
   .place__paragraph {
     margin-top: 25px;
-    max-width: 288px;
+    max-width: 320px;
   }
   .place__paragraph:first-of-type {
     margin-top: 32px;
+  }
+}
+
+@media (max-width: 320px) {
+  .place__paragraph {
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }
